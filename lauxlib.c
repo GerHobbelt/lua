@@ -23,7 +23,7 @@
 */
 
 #include "lua.h"
-
+#include "lstate.h"
 #include "lauxlib.h"
 
 

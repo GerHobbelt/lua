@@ -46,7 +46,7 @@
 /*
 ** Union of all Lua values
 */
-typedef union LUA_ALIGNED_(16) Value {
+LUA_GLM_ALIGNED_TYPEDEF(union, Value) {
   struct GCObject *gc;    /* collectable objects */
   void *p;         /* light userdata */
   lua_Float4 f4;   /* vector and quaternion stub */
